@@ -211,9 +211,33 @@ ul.navbar-language :not(li:last-child) a {
 }
 
 
+#family .row .col-lg-12 {
+  height: 400px;
+  background-image: url(https://www.periodicodaily.com/wp-content/uploads/2019/07/collage-basic-11.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 30px 0;
+  position: relative;
+}
 
+#family .textarea {
+  background-color: white;
+  padding: 30px 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
 
+#family .textarea *{
+  color: black;
+}
 
+#family .textarea i {
+  font-size: 30px;
+  margin: 0 5px;
+}
 
 
 
