@@ -98,13 +98,10 @@ ul.navbar-language :not(li:last-child) a {
   font-size: 40px;
 }
 
-#prodotti p {
-  font-weight: bolder;
-}
 
 #prodotti a, i {
   color: #0007ff;
-  font-weight: bolder;
+  font-weight: normal;
 }
 
 #prodotti img {
@@ -139,7 +136,7 @@ ul.navbar-language :not(li:last-child) a {
 
 .monogreen {
   min-height: 500px;
-  margin: 80px 0;
+  margin: 30px 0;
   background-image: url(../img/scooter.f0a0397.jpg);
   background-repeat: no-repeat;
   padding: 50px 0;
@@ -180,16 +177,21 @@ ul.navbar-language :not(li:last-child) a {
 }
 
 #app{
-  height: 300px;
-  background-image: url(../img/city.7c8c928.jpg);
+  height: 500px;
+  background-color: #405568;
+  background-image: url(../img/iphone-bg.2dae1bd.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position: 50% 190%;
 }
 
 .overlay{
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.43);
+}
+
+#app .overlay:first-child {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .overlay *{
@@ -203,8 +205,18 @@ ul.navbar-language :not(li:last-child) a {
   padding-top: 25px;
 }
 
+.overlay p,
+.overlay a {
+  font-weight: lighter;
+}
+
+
+.overlay img {
+  height: 100%;
+}
+
 #find{
-  height: 300px;
+  height: 500px;
   background-image: url(https://www.fulltravel.it/wp-content/uploads/2019/11/lazio/roma/124537/Cosa-vedere-a-Roma.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -243,13 +255,14 @@ ul.navbar-language :not(li:last-child) a {
 
 footer{
   background-color: black;
-  padding: 30px 0;
+  padding: 90px 0;
   color: white;
 }
 
 footer  p {
   color: lightgrey;
   margin: 10px 0;
+  font-size: 13px;
 }
 
 .secondfooter {
@@ -259,8 +272,22 @@ footer  p {
   border-bottom: 0.5px solid grey;
 }
 
+.secondfooter i {
+  color: white;
+  font-size: 20px;
+  margin: 0 5px;
+}
 
 
+.thirdfooter .col-lg-6:first-child{
+  text-align: right;
+}
+
+.thirdfooter img {
+  width: 20%;
+  border: 1px solid white;
+  border-radius: 5px;
+}
 
 
 
