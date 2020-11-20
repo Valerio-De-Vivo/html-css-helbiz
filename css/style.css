@@ -75,3 +75,39 @@ ul.navbar-language :not(li:last-child) a {
     font-size: 26px;
   }
 }
+
+#prodotti{
+  text-align: center;
+  padding: 40px;
+}
+
+#prodotti [class*="col-"]{
+  width: calc(100% / 12 * 6 - 30px);
+  background-color: rgb(238, 237, 237) ;
+  padding: 40px 0;
+  margin: 15px;
+}
+
+#prodotti [class*="col-"] *{
+  margin: 10px 0;
+}
+
+#prodotti h2 {
+  font-size: 40px;
+}
+
+#prodotti p {
+  font-weight: bolder;
+}
+
+#prodotti a, i {
+  color: #0007ff;
+  font-weight: bolder;
+}
+
+
+
+
+#prodotti img {
+  width: 80%;
+}
