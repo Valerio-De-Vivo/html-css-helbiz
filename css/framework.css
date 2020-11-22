@@ -170,6 +170,10 @@
   .md-display-block{
     display: block;
   }
+
+  .col-md-4-none {
+    display: none;
+  }
 }
 
 @media screen and (max-width:768px){
@@ -327,6 +331,17 @@
   .col-md-offset-12 {
     margin-left: calc(100% / 12 * 12);
   }
+
+  .col-md-offset-1-m-0 {
+    margin-left: 0;
+  }
+
+  .col-md-offset-7-m-0 {
+    margin-left: 0;
+  }
+
+
+
 }
 
 @media screen and (max-width:768px){

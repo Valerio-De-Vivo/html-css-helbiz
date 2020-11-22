@@ -225,7 +225,7 @@ ul.navbar-language :not(li:last-child) a {
 
 #family .row .col-lg-12 {
   height: 400px;
-  background-image: url(https://www.periodicodaily.com/wp-content/uploads/2019/07/collage-basic-11.jpg);
+  background-image: url(../img/family.jpeg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -292,8 +292,84 @@ footer  p {
 
 
 
+@media screen  and (max-width:992px){
+
+  #prodotti {
+    padding: 10px;
+  }
+
+  #backbottom .container .col-lg-3 {
+    padding: 0 20px;
+    margin-top: 140px;
+    font-size: 20px;
+  }
+
+  #back {
+    min-height: 300px;
+    background-size: cover;
+  }
+
+  #backbottom .container .col-lg-3 {
+    padding: 20px 40px;
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .row.appandfindus .col-lg-6 {
+    width: calc(100% / 12 * 12);
+    height: 100%;
+    text-align: center;
+    color: white;
+  }
 
 
+  .row.appandfindus .col-lg-6:first-child {
+    margin: 20px 0;
+  }
+
+  .row.appandfindus .col-lg-6:nth-child(2) {
+    margin: 20px 0;
+  }
+
+  footer{
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer [class*= col-] {
+    margin: 20px 0;
+  }
+
+  #family .row .col-lg-12 {
+    height: 400px;
+    background-image: url(../img/family.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 30px 0;
+    position: relative;
+  }
+
+  .thirdfooter .col-lg-6:nth-child(2) {
+    text-align: left;
+  }
+
+  .thirdfooter img {
+    width: 40%;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+
+
+}
+
+@media screen  and (max-width:500px){
+  #prodotti .col-xs-12 {
+    width: calc(100% / 12 * 12);
+    margin: 20px 0;
+  }
+}
 
 
 
